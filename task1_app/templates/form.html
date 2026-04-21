@@ -1,0 +1,10 @@
+<form method="POST">
+
+    {{ form.hidden_tag() }}
+
+    Name: {{ form.name() }} <br><br>
+    Phone: {{ form.phone() }} <br><br>
+    Email: {{ form.email() }} <br><br>
+
+    {{ form.submit() }}
+</form>
